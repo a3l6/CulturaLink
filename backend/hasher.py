@@ -11,6 +11,6 @@ def hashpw(username: str, password: str) -> str:
 def verify(username: str, password: str, hashed_password: str) -> bool:
     potential_hash = hashpw(username, password)
 
-    if password == hashed_password:
+    if potential_hash == hashed_password:
         return True
     return False

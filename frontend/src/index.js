@@ -7,14 +7,14 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import Navigation from './components/Navbar';
-import Routes from './Routes';
+import Routes from './router';
 
 ReactDOM.render(
-    <Router>
-        <div className="App">
-            <Navigation />
-            <Routes />
-        </div>
-    </Router>,
-    document.getElementById('root')
+  <Router>
+    <div className="App">
+      <Navigation />
+      <Routes />
+    </div>
+  </Router>,
+  document.getElementById('root')
 );
