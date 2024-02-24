@@ -1,2 +1,4 @@
 ./backend/.venv/
 ./backend/.env
+node_modules
+c
