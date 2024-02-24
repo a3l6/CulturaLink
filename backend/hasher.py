@@ -1,5 +1,5 @@
 import hashlib
-from cryptography.hazmat.primitives import constant_time
+#from cryptography.hazmat.primitives import constant_time
 
 
 def hashpw(username: str, password: str) -> str:
@@ -11,6 +11,6 @@ def hashpw(username: str, password: str) -> str:
 def verify(username: str, password: str, hashed_password: str) -> bool:
     potential_hash = hashpw(username, password)
 
-    if constant_time.bytes_eq(potential_hash.encode(), hashed_password.encode()):
+    if password == hashed_password:
         return True
     return False
