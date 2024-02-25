@@ -5,6 +5,7 @@
     background-size: cover;
     margin-left: -5%;
     margin-top: -2%;
+    font-family: Arial, Helvetica, sans-serif, Verdana, sans-serif;
 }
 
 #h3-connect{
@@ -12,16 +13,19 @@
     font-size: 35px;
     text-decoration: underline;
     margin-top: 1%;
-    margin-left: -10%;
+    margin-left: -5%;
 }
 
 .secondary-container{
-    margin-top: -33.5%;
-    margin-left: 4%;
+    margin-top: -37.5%;
 }
 
-h1{
+#h1-connect{
     margin-bottom: 0%;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: -5%;
 }
 
 #h2-connect{
@@ -29,6 +33,6 @@ h1{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin-left: -8%;
+    margin-left: -5%;
     margin-bottom: 0px;
 }
