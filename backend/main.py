@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import hasher
-<<<<<<< HEAD
 import database as db
 import moderator
 from flask_cors import CORS
@@ -10,20 +9,12 @@ app = Flask(__name__)
 
 CORS(app)
 
-=======
-
-app = Flask(__name__)
-
-def foo(*args):
-    pass
->>>>>>> anreet3
 
 @app.route("/")
 def home():
     return "Hello World!"
 
 
-<<<<<<< HEAD
 @app.route("/login", methods=["POST"])
 def login():
     json = request.get_json()
@@ -31,15 +22,6 @@ def login():
     user_from_db = db.find_user(json["username"])
     print(json)
     if hasher.verify(json["username"], json["password"], user_from_db["password"]):
-=======
-@app.route("/login")
-def login():
-    json = request.get_json()
-
-    password = hasher.hashpw(json["username"], json["password"])
-
-    if hasher.verify(json["username"], json["password"], password):
->>>>>>> anreet3
         return jsonify({
             "msg": "Success"
         })
@@ -47,42 +29,33 @@ def login():
         "msg": "Denied"
     })
 
-<<<<<<< HEAD
 
 @app.route("/signup", methods=["POST"])
-=======
-@app.route("/signup")
->>>>>>> anreet3
 def signup():
 
     json = request.get_json()
 
     password = hasher.hashpw(json["username"], json["password"])
 
-<<<<<<< HEAD
     res = db.user_insert(json["username"], password, json["culture"])
-=======
-    res = foo(json["username"], password)
->>>>>>> anreet3
 
     if res:
         return jsonify({})
     return jsonify({})
 
-<<<<<<< HEAD
 
 @app.route("/add-article", methods=["POST"])
 def add_article():
     json = request.get_json()
     print(f"Evaluating with json {json}")
-    title_is_offensive = moderator.classify(json["title"])
+    title_is_offensive = moderator.classify(json["title"].strip())
     print(f"Classified title {json['title']}")
-    content_is_offensive = moderator.classify(json["content"])
+    content_is_offensive = moderator.classify(json["content"].strip())
     print("Done Evaluating")
     print(f"{title_is_offensive=},{content_is_offensive=}")
     if title_is_offensive or content_is_offensive:
         return jsonify({
-            "msg": "Hate speech detected!"
+            "msg": "Hate speech detected! Please change your Title/Body as hate speech is not allowed on our platform."
         })
     user_from_db = db.find_user(json["username"])
     if hasher.verify(json["username"], json["password"], user_from_db["password"]):
@@ -131,7 +104,5 @@ def add_recipe():
                       json["body"], json["culture"])
 
 
-=======
->>>>>>> anreet3
 if __name__ == "__main__":
     app.run(debug=True)
