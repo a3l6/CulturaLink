@@ -1,9 +1,9 @@
 .wrapper {
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
     padding: 30px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: black;
@@ -27,9 +27,9 @@
 .input-box input {
     width: 80%;
     margin-left: 5%;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 50px;
     outline: none;
 }
 
