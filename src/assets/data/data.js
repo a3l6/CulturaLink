@@ -1,14 +1,15 @@
 export const nav = [
   {
     id: 1,
-    text: "home",
+    text: "Articles",
     url: "/",
   },
-  {
+ /* {
     id: 2,
     text: "about",
     url: "/about",
   },
+  
   {
     id: 3,
     text: "pages",
@@ -19,29 +20,33 @@ export const nav = [
     text: "blog",
     url: "/blog",
   },
+  
   {
     id: 5,
     text: "contact",
     url: "/contact",
   },
+  */
 ]
+
+
 export const category = [
   {
     id: 1,
-    category: "Life",
-    title: "Stay Calm And Surf",
+    category: "SHARE",
+    //title: "Stay Calm And Surf",
     cover: "../images/category/ca1.png",
   },
   {
     id: 2,
-    category: "Fashion",
-    title: "Becoming a Dragonfly",
+    category: "&",
+    //title: "Becoming a Dragonfly",
     cover: "../images/category/ca2.png",
   },
   {
     id: 3,
-    category: "Travel",
-    title: "There's always light at the end of the tunnel",
+    category: "LEARN",
+    //title: "There's always light at the end of the tunnel",
     cover: "../images/category/ca3.png",
   },
   {
@@ -75,37 +80,30 @@ export const category = [
     cover: "../images/category/ca8.png",
   },
 ]
+
 export const blog = [
   {
     id: 1,
-    title: "POST NO.1 CONTAINING A YOUTUBE VIDEO",
-    desc: "Quisque at tellus nec magna viverra euismod. Maecenas lobortis, nisl et sodales blandit, neque mi ullamcorper eros, id efficitur ex velit in ante. Suspendisse elementum congue lacus quis gravida. Nunc eu hendrerit risus. Quisque blandit, orci non maximus vulputate, ligula ante ornare enim, ac interdum lorem leo varius mauris. Aliquam non sem vel orci malesuada sagittis. Vivamus id ullamcorper tellus. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et sapien a arcu feugiat mattis. Suspendisse sed magna quis turpis rhoncus venenatis.",
-    category: "Nature",
-    cover: "../images/blogs/b1.jpg",
+    title: "Decolonization of African Names",
+    desc: "WHAT IS IN A NAME? Some people say that there is nothing in a name. This is a grossly misleading statement. I t is difficult to think of anything one can do today without making use of one's name. In our modem society with its strong economie set up, a man who has no name is a man who has nothing. People, organizational groups, businesses of various kinds are ali identified by one kind of name or another. Countries, towns, cities and villages, are ali identified by names.",
+    category: "Culture",
+    cover: "../images/blogs/b1.jpeg",
     date: "APRIL 05, 2018",
   },
 
   {
     id: 2,
-    title: "JUPITER IS FULL OF WATERFALLS SO EARLY",
-    desc: "Vestibulum suscipit nibh sed odio pharetra, condimentum lacinia nisi varius. Ut ac ornare diam. Suspendisse vitae quam risus. Nulla ullamcorper libero justo, vitae dictum est efficitur id. Aenean et lacinia arcu. Sed non dolor id risus dapibus congue. Quisque tincidunt vitae tellus ut malesuada. Nulla eleifend nibh a maximus consectetur. Duis et mi porta, bibendum leo non, fermentum enim. Vivamus sed diam suscipit, ultricies ipsum sed, efficitur dui. Sed pharetra purus at iaculis vehicula. Fusce pellentesque placerat ante, id elementum dolor maximus sed. Aenean viverra at lectus quis vehicula. Aenean at arcu odio. Etiam mauris justo, cursus finibus aliquam eget, fermentum nec nulla. Sed finibus viverra magna non sagittis. Mauris fringilla augue vel quam rhoncus, in tempor enim lacinia. Donec nibh velit, scelerisque id neque sit amet, ornare consectetur sem. Donec convallis nec justo id consequat. Donec sem leo, pulvinar sit amet nisi a, mollis gravida est. Duis porttitor eleifend cursus. Vivamus ac dapibus dolor. Nullam leo tellus, rhoncus sit amet tempor vel, malesuada vel augue. Morbi laoreet sem eget tortor pulvinar mattis. Maecenas commodo ultricies orci, ut blandit urna accumsan sit amet. Ut a porttitor orci, maximus feugiat turpis. In eu sodales orci, et volutpat felis. Quisque orci quam, gravida at nulla tempor, vulputate pretium magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent congue, magna vitae interdum blandit, arcu mauris placerat nulla, sit amet rhoncus justo risus in neque.",
-    category: "Nature",
+    title: "13 Things You Need to Know About Nigeria",
+    desc: "Nigeria is the most populous black nation on Earth. It is home to the second largest film industry on the globe whilst also being the fashion, technological and creative hub in Africa. Nigerians are known for their vibrant and friendly energy expressed through diverse creative expressions. Explore the flavours of Nigeria, from its rich heritage to spectacular nature, captivating destinations and a welcoming spirit. Here are 13 things you need to know about Nigeria",
+    category: "Culture",
     cover: "../images/blogs/b2.jpg",
     date: "MARCH 15, 2018",
   },
   {
-    id: 3,
-    title: "START YOU CUP ON TABLE OF THAT",
-    desc: "Duis rutrum eu tortor et efficitur. Nulla ac consequat leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut vestibulum mattis est eu volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae tristique nibh. Quisque vel lectus interdum lacus ultricies venenatis. In ex nisl, commodo vitae risus ac, efficitur imperdiet dolor. Maecenas dignissim luctus mi sit amet mollis. Maecenas sit amet bibendum dolor, a molestie tellus. Donec et varius risus. Duis tincidunt mi lorem, vitae luctus turpis rutrum sit amet. Aliquam aliquet malesuada odio, ut pellentesque nisi tempus in. Ut fermentum, augue id accumsan aliquet, dolor dui euismod elit, nec fringilla mi justo nec mauris. Duis tellus nisl, elementum et urna at, molestie condimentum eros. Sed mattis quis risus id tincidunt. Donec ultrices vestibulum vestibulum.",
-    category: "Sports",
-    cover: "../images/blogs/b3.jpg",
-    date: "MARCH 15, 2018",
-  },
-  {
     id: 4,
-    title: "START YOU CUP ON TABLE OF THAT",
-    desc: "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition.",
-    category: "Fashion",
+    title: "Amazing Caribbean Culture: Revealing the Caribbean History and Heritage",
+    desc: "Like the brilliantly colored tropical flowers that lace the Caribbean, the culture of the region is woven from the multicolored threads of many European countries.Ever since the Spanish first arrived in the Caribbean in the late 15th century, successive waves of Europeans — French, English, and Dutch — settled the islands. They brought with them their languages, laws, and way of life, leaving a strong cultural legacy that continues to this day, albeit expressed with a unique West Indian twist. Indeed, the colonial heritage blended with indigenous and African traditions to find contemporary expression in the region’s cuisine, music, art, architecture, customs, and festivals.",
+    category: "Caribbean Culture",
     cover: "../images/blogs/b4.jpg",
     date: "February 20, 2018",
   },

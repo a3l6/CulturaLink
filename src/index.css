@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f9f9f9;
+  background-color: #000000;
   color: #000;
 }
 h1,
@@ -46,7 +46,7 @@ textarea {
   align-items: center;
 }
 p {
-  color: #5a5a5a;
+  color: #000000;
   font-size: 15px;
 }
 label {

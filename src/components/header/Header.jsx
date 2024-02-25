@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/images/CulturalINk.png"
 import "./header.css"
 import { User } from "./User"
 import { nav } from "../../assets/data/data"
@@ -15,7 +15,7 @@ export const Header = () => {
       <header className='header'>
         <div className='scontainer flex'>
           <div className='logo'>
-            <img src={logo} alt='logo' width='100px' />
+            <img src={logo} alt='logo' width='150px' />
           </div>
           <nav>
             <ul>

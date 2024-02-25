@@ -19,17 +19,18 @@ export const User = () => {
         {user ? (
           <>
             <button className='img' onClick={() => setProfileOpen(!profileOpen)}>
-              <img src='https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
+              <img src='https://images.pexels.com/photos/4689910/pexels-photo-4689910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='' />
             </button>
+            <div className="user-profile">User Profile</div>
             {profileOpen && (
               <div className='openProfile boxItems' onClick={close}>
                 <Link to='/account'>
                   <div className='image'>
                     <div className='img'>
-                      <img src='https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
+                      <img src='https://images.pexels.com/photos/4689910/pexels-photo-4689910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='' />
                     </div>
                     <div className='text'>
-                      <h4>Eden Smith</h4>
+                      <h4>James Smith</h4>
                       <label>Los Angeles, CA</label>
                     </div>
                   </div>
@@ -46,14 +47,9 @@ export const User = () => {
                     <h4>My Account</h4>
                   </button>
                 </Link>
-                <button className='box'>
-                  <BsBagCheck className='icon' />
-                  <h4>My Order</h4>
-                </button>
-                <button className='box'>
-                  <AiOutlineHeart className='icon' />
-                  <h4>Wishlist</h4>
-                </button>
+                  
+                
+                
                 <button className='box'>
                   <GrHelp className='icon' />
                   <h4>Help</h4>
