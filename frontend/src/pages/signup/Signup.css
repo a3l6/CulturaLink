@@ -1,0 +1,91 @@
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5;
+    margin: -15px 0 15px;
+    margin-left: 5%;
+    color: black;
+    margin-right: 13%;
+}
+
+
+.input-box {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.input-box input {
+    width: 80%;
+    margin-left: 5%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.icons {
+    position: absolute;
+    right: 18%;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.remember-forgot label {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.remember-forgot a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    width: 30%;
+    margin-left: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #fefefe;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+.register-link {
+    text-align: center;
+}
+
+.register-link p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: -10%;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
