@@ -15,10 +15,8 @@ body{
 }
 
 .recipe-card {
-    background-color: #ffffff;
     margin: 20px;
     padding: 40px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     width:450px; /* Adjust width to make cards square */
     height: 550px; /* Adjust height to accommodate content */
@@ -39,12 +37,13 @@ body{
     border-radius: 5px;
     align-self: center;
     padding: 10px;
+    margin-top: 0px;
 }
 
 .recipe-details h3 {
     margin: 0;
     font-size: 50px;
-    color: black;
+    color: white;
     text-align: center;
     margin-top: 0px;
     padding-top: 0px;
@@ -52,8 +51,9 @@ body{
 
 .recipe-details p {
     margin: 0;
-    color: #666;
+    color: #fff;
     font-size: 1rem;
+    text-decoration: none;
 }
 
 h1{
@@ -61,5 +61,5 @@ h1{
     color: #ffffff;
     font-size: 100px;
     text-align: center;
-    margin-left: -5%;
+    margin-left: -10%;
 }

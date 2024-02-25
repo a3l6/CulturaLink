@@ -78,6 +78,7 @@ const Events = () => {
                                 <img src={event.image} alt={event.name} />
                                 <div className="event-details">
                                     <h3>{event.name}</h3>
+                                    <p>{event.date}</p>
                                 </div>
                             </div>
                         ))}
