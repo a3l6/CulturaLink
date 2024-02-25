@@ -167,11 +167,11 @@ body {
 
 .remember-forgot label {
     display: inline-block;
-    font-size: 14px;
+    font-size: 50px;
 }
 
 .remember-forgot a {
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: none;
     color: #007bff;
 }
@@ -189,7 +189,7 @@ button[type="submit"] {
     border-radius: 5px;
     background-color: black;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -198,7 +198,7 @@ button[type="submit"] {
 }
 
 .register-link p {
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
     margin-left: -25%;
 }

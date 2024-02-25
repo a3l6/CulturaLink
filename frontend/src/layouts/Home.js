@@ -10,8 +10,8 @@ const Home = () => {
             </div>  
             <div className='secondary-container'>
                     <h1>Embrace your roots</h1>
-                    <h2>Connect your branches</h2>
-                    <p><a href='/Signup'>Connect now</a></p>   
+                    <p id='h2-connect'>Connect your branches</p>
+                    <p id='h3-connect'><a href='/Signup'>Connect now</a></p>   
                 </div>    
         </>
     );

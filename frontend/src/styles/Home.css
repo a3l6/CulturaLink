@@ -1,31 +1,33 @@
 .home-container{
     background: url('https://media.discordapp.net/attachments/1207853354429063212/1211122531545907291/Colorful_Culture_and_Communication_Presentation_1.png?ex=65ed0cc1&is=65da97c1&hm=4d417b719a26c1f36bca9ac8fa44febc1ce38c7203cee92f07b3232bda81cb10&=&format=webp&quality=lossless&width=1383&height=778') no-repeat;
-    height: 90vh;
+    height: 85vh;
     background-position: center;
     background-size: cover;
-    margin-top: -2%;
     margin-left: -5%;
 }
 
-p{
+#h3-connect{
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     text-decoration: underline;
-    margin-top: 2%;
-    margin-left: -5%;
+    margin-top: 1%;
+    margin-left: -10%;
 }
 
 .secondary-container{
-    margin-top: -34%;
-    margin-left: -2%;
+    margin-top: -34.5%;
+    margin-left: 4%;
 }
 
 h1{
     margin-bottom: 0%;
 }
 
-h2{
-    margin-top: 0px;
+#h2-connect{
+    margin-top: -5px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -8%;
     margin-bottom: 0px;
-    margin-left: -5%;
 }
