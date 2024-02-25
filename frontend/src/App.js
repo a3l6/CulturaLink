@@ -4,7 +4,8 @@ import Navbar from './layouts/Navbar';
 import Home from './layouts/Home'
 import Events from './layouts/Events'
 import Recepies from './layouts/Recepies'
-import Signin from './layouts/Signin'
+import Signup from './layouts/Signup'
+import Form from './layouts/Signin';
 
 
 const router = createBrowserRouter(
@@ -13,7 +14,8 @@ const router = createBrowserRouter(
     <Route path="/" element={<Home/>} />
     <Route path="/events" element={<Events/>} />
     <Route path="/recipes" element={<Recepies />} />
-    <Route path="/signin" element={<Signin/>} />
+    <Route path="/login" element={<Form/>} />
+    <Route path="/Signup" element={<Signup/>}/>
     </Route>
   )
 );

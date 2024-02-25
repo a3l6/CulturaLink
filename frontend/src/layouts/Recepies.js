@@ -1,5 +1,5 @@
 import React from 'react';
-import './Recipes.css';
+import '../styles/Recipes.css';
 import Navbar from './Navbar';
 
 const Recipes = () => {
@@ -75,7 +75,7 @@ const Recipes = () => {
                             <img src={recipe.image} alt={recipe.name} />
                             <div className="recipe-details">
                                 <p>{recipe.definition}</p>
-                                <p style={{fontSize:'20px', marginTop:'5px'}}><b>Uploaded By:</b> {recipe.writer}</p>
+                                <p style={{fontSize:'20px', marginTop:'5    px'}}><b>Uploaded By:</b> {recipe.writer}</p>
                             </div>
                         </div>
                     ))}

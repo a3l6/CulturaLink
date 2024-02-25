@@ -1,5 +1,5 @@
 import React from 'react';
-import './Events.css';
+import '../styles/Events.css';
 import Navbar from './Navbar';
 
 const Events = () => {
@@ -45,7 +45,7 @@ const Events = () => {
 
     return (
         <>
-                    <Navbar/>
+        <Navbar/>
         <div className="event-container">
            <h1>Popular Events This Week</h1>
             <div className="popular-events">

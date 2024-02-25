@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'
+import '../styles/Home.css';
 import Navbar from './Navbar';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
             <div className='secondary-container'>
                     <h1>Embrace your roots</h1>
                     <h2>Connect your branches</h2>
-                    <p><a href=''>Connect now</a></p>   
+                    <p><a href='/Signup'>Connect now</a></p>   
                 </div>    
         </>
     );
