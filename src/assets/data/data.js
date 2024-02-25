@@ -33,21 +33,21 @@ export const nav = [
 export const category = [
   {
     id: 1,
-    category: "SHARE",
+    category: "",
     //title: "Stay Calm And Surf",
-    cover: "../images/category/ca1.png",
+    cover: "../images/category/7.jpg",
   },
   {
     id: 2,
-    category: "&",
+    category: "",
     //title: "Becoming a Dragonfly",
-    cover: "../images/category/ca2.png",
+    cover: "../images/category/8.jpg",
   },
   {
     id: 3,
-    category: "LEARN",
+    category: "",
     //title: "There's always light at the end of the tunnel",
-    cover: "../images/category/ca3.png",
+    cover: "../images/category/9.jpg",
   },
   {
     id: 4,
@@ -104,12 +104,12 @@ export const blog = [
     title: "Amazing Caribbean Culture: Revealing the Caribbean History and Heritage",
     desc: "Like the brilliantly colored tropical flowers that lace the Caribbean, the culture of the region is woven from the multicolored threads of many European countries.Ever since the Spanish first arrived in the Caribbean in the late 15th century, successive waves of Europeans — French, English, and Dutch — settled the islands. They brought with them their languages, laws, and way of life, leaving a strong cultural legacy that continues to this day, albeit expressed with a unique West Indian twist. Indeed, the colonial heritage blended with indigenous and African traditions to find contemporary expression in the region’s cuisine, music, art, architecture, customs, and festivals.",
     category: "Caribbean Culture",
-    cover: "../images/blogs/b4.jpg",
+    cover: "../images/blogs/Blog3.png",
     date: "February 20, 2018",
   },
   {
     id: 5,
-    title: "SMART TYPE OF GAMING WITH CO-OP",
+    title: "Embrace the Art of different Culture",
     desc: "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition.",
     category: "Sports",
     cover: "../images/blogs/b5.jpg",
@@ -125,7 +125,7 @@ export const blog = [
   },
   {
     id: 7,
-    title: "TEACH YOUR DRAGON HOW TO FLY",
+    title: "How to enjoy someone's culture respectively",
     desc: "Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus. We don't want to overload you with hundreds of styles you don't want, or need. We give you a strong base to express your own creativity.",
     category: "Fashion",
     cover: "../images/blogs/b7.jpg",
@@ -133,7 +133,7 @@ export const blog = [
   },
   {
     id: 8,
-    title: "TEACH YOUR DRAGON HOW TO FLY",
+    title: "Learn about our culture & support",
     desc: "Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus. We don't want to overload you with hundreds of styles you don't want, or need. We give you a strong base to express your own creativity.",
     category: "Fashion",
     cover: "../images/blogs/b8.jpg",
