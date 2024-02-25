@@ -3,6 +3,7 @@ import '../styles/loginin.css';
 import Navbar from './Navbar';
 import { useNavigate } from 'react-router-dom';
 
+<<<<<<< HEAD
 const Form = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -58,6 +59,37 @@ const Form = () => {
               <p>Do not have an account? <a href="/Signup">register here!</a></p>
             </div>
           </form>
+=======
+const Form = () =>{
+    return (
+        <>
+        <Navbar/>
+        <div className='initial-wrapper'>
+        <div className = "wrapper">           
+            <form action="">
+                <h1>Login</h1>
+                <div className="input-box">
+                    <input type="text" placeholder="Username" required/>
+                    <p className = 'icons'>👨🏿</p>
+                    </div>
+                    <div className="input-box">
+                        <input type="password" placeholder="Password" required/>
+                        <p className = 'icons'>🔒</p>
+                    </div>
+                    <div className = "remember-forgot">
+                    <div>
+                    <input type="checkbox"></input>
+                    <label>Remember Me 🙂</label>
+                    </div>
+                    <div> 
+                    <a href="#">Forgot Password?</a></div>
+                </div>
+                <button type="submit">Login</button>
+                <div className="register-link">
+                <p>Do not have an account? <a href = "/Signup">register here!</a></p>
+                </div>
+            </form>
+>>>>>>> 9ae238b692afd6cdaa189d646b2804ad34362355
         </div>
 
       </div>

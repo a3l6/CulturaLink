@@ -47,13 +47,13 @@ const Events = () => {
         <>
         <Navbar/>
         <div className="event-container">
-           <h1>Popular Events This Week</h1>
+           <h1 style={{fontSize: '60px'}}>POPULAR EVENTS THIS WEEK</h1>
             <div className="popular-events">
                 <img src="https://globalnews.ca/wp-content/uploads/2023/02/GLOBAL-NEWS_TBFF23_3000-x-2000-1_v2.jpg?quality=85&strip=all&w=1200" alt="popular-this-week"></img>
             </div>
 
             <div className="festive">
-            <h2>Upcoming Festivals</h2>
+            <h2>UPCOMING FESTIVALS</h2>
                 <div className="upcoming-festivals">
                     <div className="events-container">
                     {festivals.map((festival, index) => (
@@ -71,7 +71,7 @@ const Events = () => {
         
             <div className="social">            
                 <div className="local-meetups">
-                <h2>Social events</h2>
+                <h2>SOCIAL EVENTS</h2>
                         <div className="events-container">
                         {events.map((event, index) => (
                             <div className="event-card" key={index}>
