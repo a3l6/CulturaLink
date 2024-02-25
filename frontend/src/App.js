@@ -1,9 +1,10 @@
 import React from 'react';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
-import Home from './components/Home'
-import Events from './components/Events'
-import Recepies from './components/Recepies'
-import Signin from './components/Signin'
+import Navbar from './layouts/Navbar';
+import Home from './layouts/Home'
+import Events from './layouts/Events'
+import Recepies from './layouts/Recepies'
+import Signin from './layouts/Signin'
 
 
 const router = createBrowserRouter(
@@ -19,7 +20,9 @@ const router = createBrowserRouter(
 
 function App() {
     return (
+      <>
         <RouterProvider router={router} />
+      </>
     );
 }
 
