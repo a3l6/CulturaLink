@@ -1,0 +1,81 @@
+body{
+    color: white;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.popular-events img {
+    width: 95%;
+    height: 70%;
+    align-self: center;
+    border-radius: 8px;
+    padding: 0px;
+    margin-left: 3%;
+    margin-right: 0px;
+    margin-top: -2%;
+}
+
+.events-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event-card {
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    width:400px; /* Adjust width to make cards square */
+    height: auto; /* Adjust height to accommodate content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    overflow: hidden; /* Ensures images don't exceed card boundaries */
+    text-align: center; 
+    margin-bottom:3%;
+    color:white;
+}
+
+.event-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.event-card img {
+    border: 1px solid black; 
+    width: 75%;
+    height: 250px;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+.event-details {
+    padding-top: 4px;
+}
+
+.event-details h3 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.event-details p {
+    margin: 0;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.popular-events{
+    margin-top: 0px;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+

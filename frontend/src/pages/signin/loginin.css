@@ -1,0 +1,70 @@
+.wrapper h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.wrapper{
+    margin-bottom: 10px;
+    margin-top: -5%;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.input-box input {
+    width: 80%;
+    margin-left: 5%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+.icons {
+    position: absolute;
+    right: 18%;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.remember-forgot label {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.remember-forgot a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.register-link {
+    text-align: center;
+}
+
+.register-link p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: -10%;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
